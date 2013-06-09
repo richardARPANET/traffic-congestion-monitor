@@ -7,7 +7,7 @@ import pygame
 import datetime
 
 point_width = 1
-image_stream = 'http://www.bbc.co.uk/travelnews/london/trafficcameras/highwaysagency/14109/1370687742/image'
+image_stream = 'http://www.bbc.co.uk/travelnews/motorways/trafficcameras/highwaysagency/50265/1370785351159/image'
 pause_secs = 35  # amount of secs between each graph update, varies according to img stream
 
 
