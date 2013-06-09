@@ -18,7 +18,11 @@ def process(r):
 
 
 def entropy(img):
-    # calc entropy of an image
+    # by calculating
+    """
+    By calculating entropy of the img stream
+    density of traffic can be roughly measured
+    """
     histogram = img.histogram()
     histogram_size = sum(histogram)
     histogram = [float(h) / histogram_size for h in histogram]
